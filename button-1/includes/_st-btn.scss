@@ -1,0 +1,18 @@
+.st-btn{
+    padding: 15px 20px;
+    font-family: var(--font-regular);
+    font-size: 16px;
+    color: var(--color-font);
+    cursor: pointer;
+    background: var(--color-bg);
+    border: none;
+    border-radius: 20px;
+    box-shadow: -2px -2px 5px rgba(255, 255, 255, 1),
+              3px 3px 5px rgba(0, 0, 0, 0.1);
+    transition: 0.8s;
+    &:hover{
+        box-shadow: inset -2px -2px 5px rgba(255, 255, 255, 1),
+              inset 3px 3px 5px rgba(0, 0, 0, 0.1);
+        transform: scale(0.98);
+    }
+}
